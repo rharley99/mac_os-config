@@ -32,10 +32,6 @@ export MOOM_APP_URL="https://manytricks.com/download/moom"
 export PGENV_APP_URL="https://github.com/theory/pgenv"
 export PGENV_APP_PATH="$HOME/.cache/pgenv"
 
-export SONOS_APP_NAME="Sonos S1 Controller.app"
-export SONOS_VOLUME_NAME="Sonos"
-export SONOS_APP_URL="https://www.sonos.com/redir/controller_software_mac"
-
 export TANA_APP_NAME="Tana.app"
 export TANA_APP_URL="https://desktop-update.tana.inc/download/darwin"
 
