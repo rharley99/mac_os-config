@@ -13,13 +13,15 @@ mkdir -p log
 
 rsync \
   --rsync-path="sudo rsync" \
-  --perms \
+  --no-perms \
+  --no-owner \
+  --no-group \
   --recursive \
   --compress \
-  --numeric-ids \
   --links \
   --hard-links \
   --files-from="$MAC_OS_CONFIG_PATH/lib/restore.bom" \
+  --ignore-missing-args \
   --log-file="log/restore.log" \
   --human-readable \
   --verbose \
