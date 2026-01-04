@@ -281,9 +281,9 @@ Ensure you have the following in place for your Silicon machine:
 .. Turn off your machine.
 .. Start your machine by pressing and holding the `POWER` button until you see startup options being
    loaded.
-.. Select Utilities → Startup Security Utility from the main menu.
+.. Select Options → Startup Security Utility from the main menu.
 .. Select _Reduced Security_.
-.. Quit the utility and restart the machine.
+.. Quit options and restart the machine.
 
 === Install
 
@@ -300,19 +300,12 @@ Ensure you have the following in place for your Silicon machine:
 The following are additional steps, not easily automated, that are worth completing after the
 install scripts have completed:
 
-* System Preferences
+* System Settings
 ** Apple ID
 *** Login (if not already).
 *** Update avatar.
 *** Configure iCloud.
 *** Enable Find My Mac.
-** Bluetooth
-*** Reconnect keyboard, mouse, and earbuds.
-** Sound
-*** Disable _Play sound on startup_.
-*** Disable _Play user interface sound effects_.
-** Screen Time
-*** Disable entire feature.
 ** General
 *** AirDrop & Handoff
 **** Disable _AirPlay Receiver_ so you can run link:https://github.com/rack/rack[Rack] applications on Port 5000.
@@ -323,11 +316,13 @@ install scripts have completed:
 *** Language and Region
 **** Set _First day of week_ to _Monday_.
 **** Set _Date format_ to _YYYY-MM-DD_.
-** Accessibility
-*** Hearing
-**** Enable _Turn off background sounds when your Mac is not in use._
 ** Appearance
 *** Use _Light_ theme.
+** Bluetooth
+*** Reconnect keyboard, mouse, and earbuds.
+** Sound
+*** Disable _Play sound on startup_.
+*** Disable _Play user interface sound effects_.
 ** Apple Intelligence & Siri
 *** Disable _Listen for_.
 *** Disable _Keyboard shortcut_ (use Alfred instead).
@@ -335,15 +330,17 @@ install scripts have completed:
 *** Enable _FileVault_.
 ** Wallpaper
 *** Select custom image from _Documents_.
+*** Screen Saver
+**** Start after 5 minutes.
+**** Use custom and select _Message_.
 ** Spotlight
 *** Disable _Help Apple Improve Search_. link:https://obdev.at/blog/what-happens-on-your-device-stays-on-your-device-until-it-doesnt[Details].
-** Screen Saver
-*** Use _Message_ with custom text.
+** Lock Screen
+*** Set _Show message when locked_ with custom text.
 ** Battery
 *** Click _Options_ and enable _Prevent automatic sleeping on power adapter when the
 display is off_.
 ** Lock Screen
-*** Set _Start Screen Saver when inactive_ for 5 minutes.
 *** Set _Turn display off on battery when inactive_ for 2 minutes.
 *** Set _Turn display off on power adapter when inactive_ for 10 minutes.
 *** Set _Require password after screen saver begins or display is turned off_ for 5 minutes.
@@ -364,10 +361,10 @@ display is off_.
 *** Set _Key repeat rate_ to max level.
 *** Set _Delay until repeat_ to short (max) level.
 *** Keyboard Shortcuts
-**** Select _Launchpad and Dock_ and uncheck _Turn Dock Hiding On/Off_.
+**** Select _Dock_ and uncheck _Turn Dock Hiding On/Off_.
+**** Select _Mission Control_ and assign `CONTROL + OPTION + COMMAND + W` to _Mission Control_.
 **** Select _Mission Control_ and assign `CONTROL + OPTION + COMMAND + N` to _Show Notification
      Center_.
-**** Within _Mission Control_, assign `CONTROL + OPTION + COMMAND + W` to _Mission Control_.
 **** Select _Screenshots_ and uncheck all boxes.
 **** Select _Spotlight_ and uncheck all boxes.
 ** Mouse
@@ -378,8 +375,6 @@ display is off_.
 *** Add printer/scanner.
 * iStat Menus
 ** Double click, within the Applications folder, to install as a system preference.
-* Carbon Copy Cloner
-** Rename old backup, create new backup, and schedule frequency.
 * Notifications
 ** Set _Show previews when unlocked_.
 ** Disable _Allow notifications when the display is sleeping_.
@@ -387,6 +382,8 @@ display is off_.
 ** Disable _Allow notifications when mirroring or sharing the display_.
 ** Disable _Show notifications on lock screen_ and _Play sound for notification_ for all applications.
 ** Enable _Allow notifications from iPhone_ but disable _Play sounds for notifications from iPhone_ within this option.
+* Carbon Copy Cloner
+** Rename old backup, create new backup, and schedule frequency.
 
 === Keyboard Shortcuts
 
@@ -487,7 +484,7 @@ and `+lib+` directories. Check out the
 link:https://alchemists.io/projects/mac_os/#_customization[macOS Customization Documentation]
 for further details.
 
-_TIP_: The installer determines which applications/extensions to install as defined in the
+💡 The installer determines which applications/extensions to install as defined in the
 `+settings.sh+` script. Applications defined with the "`APP_NAME`" suffix and extensions defined
 with the "`EXTENSION_PATH`" suffix inform the installer what to care about. Removing/commenting out
 these applications/extensions within the `+settings.sh+` file will cause the installer to skip these
