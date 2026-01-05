@@ -75,6 +75,7 @@ Installs the following link:https://brew.sh[formulas]:
 * link:https://github.com/dalance/procs[Procs]
 * link:https://tiswww.case.edu/php/chet/readline/rltop.html[Readline]
 * link:https://github.com/BurntSushi/ripgrep[ripgrep]
+* link:https://rsync.samba.org[rsync]
 * link:https://github.com/koalaman/shellcheck[ShellCheck]
 * link:https://www.joedog.org/siege-home[Siege]
 * link:https://www.tarsnap.com[Tarsnap]

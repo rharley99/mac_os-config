@@ -58,6 +58,7 @@ brew install pinentry-mac
 brew install procs
 brew install readline
 brew install ripgrep
+brew install rsync
 brew install shellcheck
 brew install siege
 brew install tarsnap
