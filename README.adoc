@@ -105,6 +105,7 @@ Installs the following link:https://brew.sh[casks]:
 * link:https://software.charliemonroe.net/downie[Downie]
 * link:https://www.getdoxie.com[Doxie]
 * link:https://www.dropbox.com[Dropbox]
+* link:https://element.io[Element]
 * link:https://www.mozilla.com/en-US/firefox[Firefox]
 * link:https://www.rogueamoeba.com/fission[Fission]
 * link:https://www.google.com/chrome[Google Chrome]

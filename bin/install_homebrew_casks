@@ -12,6 +12,7 @@ brew install --cask discord
 brew install --cask downie
 brew install --cask doxie
 brew install --cask dropbox
+brew install --cask element
 brew install --cask firefox
 brew install --cask fission
 brew install --cask google-chrome
