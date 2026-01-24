@@ -48,6 +48,7 @@ Installs the following link:https://brew.sh[formulas]:
 * link:https://github.com/orf/gping[gping]
 * link:http://www.graphicsmagick.org[Graphics Magick]
 * link:https://www.graphviz.org[Graphviz]
+* link:https://github.com/hadolint/hadolint[Haskell Dockerfile Linter]
 * link:https://github.com/sharkdp/hexyl[hexyl]
 * link:http://www.andre-simon.de/doku/highlight/en/highlight.php[Highlight]
 * link:https://hisham.hm/htop[htop]
